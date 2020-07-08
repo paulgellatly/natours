@@ -10,7 +10,7 @@
 	background-position: top;
 	position: relative;
 
-	clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
 	&__logo-box {
 		position: absolute;
@@ -30,7 +30,7 @@
 		text-align: center;
 	}
 
-	&__logo-box:hover &__logo {
-		animation: moveInRight 1s ease-out;
-	}
+	// &__logo-box:hover &__logo {
+	// 	animation: moveInRight 1s ease-out;
+	// }
 }
